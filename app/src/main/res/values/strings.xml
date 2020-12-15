@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Spotify</string>
+    <string name="ListViewButton">ListView</string>
+    <string name="GridViewButton">GridView</string>
+    <string name="ReciclerViewButton">ReciclerView</string>
+    <string name="WebViewButton">WebView</string>
+    <string name="VideoViewButton">VideoView</string>
+
+    <string name="Title">Title</string>
+    <string name="Author">Author</string>
+    <string name="Image">Image</string>
+    <string name="play">play</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/ListViewButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/ListViewButton"
+        app:layout_constraintBottom_toTopOf="@+id/GridViewButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/GridViewButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/GridViewButton"
+        app:layout_constraintBottom_toTopOf="@id/RecyclerViewButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListViewButton" />
+
+    <Button
+        android:id="@+id/RecyclerViewButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/ReciclerViewButton"
+        app:layout_constraintBottom_toTopOf="@id/VideoViewButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/GridViewButton" />
+
+    <Button
+        android:id="@+id/VideoViewButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/VideoViewButton"
+        app:layout_constraintBottom_toTopOf="@+id/WebViewButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/RecyclerViewButton" />
+
+    <Button
+        android:id="@+id/WebViewButton"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="@string/WebViewButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/VideoViewButton" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
